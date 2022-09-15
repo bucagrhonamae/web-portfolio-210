@@ -39,7 +39,7 @@ CSS Reset*/
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #081426;
-	 overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 html {
@@ -81,7 +81,7 @@ h5 {
 }
 
 #family {
-	opacity: 70%;
+	opacity: 90%;
 
 }
 h6 {
@@ -99,6 +99,7 @@ h6 {
 
 .card {
 	border: none;
+
 
 }
 .card-body {
@@ -127,6 +128,11 @@ div.modal-header {
 	text-align: left;
 }
 #about {
-	background-color: #B0CDF1;
+	background-color: #082F3A;
+
+}
+
+#contact {
+    background-color: #082F3A;
 
 }
