@@ -39,6 +39,7 @@ body {
 	font-family: 'Fira Code', monospace;
 	background-color: #081426;
 	overflow-x: hidden;
+	position: sticky;
 }
 
 html {
@@ -55,12 +56,15 @@ h4 {
 	font-size: clamp(40px, 8vw, 70px);
 	margin-left: 2rem;
 	color: #B0CDF1;
+	font-family: 'Roboto Mono', monospace;
+	display: block;
 }
 
 .sub-heading {
 	font-size: clamp(40px, 50vw, 30px);
 	margin-left: 2rem;
 	color: #B0CDF1;
+	font-family: 'Roboto Mono', monospace;
 }
 
 h2 {
