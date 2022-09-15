@@ -32,8 +32,7 @@ CSS Reset*/
 	transition: var(--transition);
 	margin-left: 15px;
 	margin-right: 15px;
-	color: #42AE9B
-
+	color: #42AE9B;
 }
 
 body {
@@ -51,6 +50,7 @@ h4 {
 	margin-left: 2rem;
 	color: #42AE9B;
 }
+
 .big-heading {
 	font-size: clamp(40px, 8vw, 70px);
 	margin-left: 2rem;
@@ -82,8 +82,8 @@ h5 {
 
 #family {
 	opacity: 90%;
-
 }
+
 h6 {
 	text-align: center;
 	margin-bottom: 2REM;
@@ -99,9 +99,8 @@ h6 {
 
 .card {
 	border: none;
-
-
 }
+
 .card-body {
 	background-color: #0E1B33;
 }
@@ -124,9 +123,10 @@ div.modal-header {
 }
 .btn {
 	color: #B0CDF1;
-	background-color: #42AE9B;
+	background-color: #082F3A;
 	text-align: left;
 }
+
 #about {
 	background-color: #082F3A;
 
