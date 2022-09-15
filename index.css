@@ -4,15 +4,16 @@ CSS Reset*/
 	padding: 0;
 	box-sizing: border-box;
 }
-.navbar navbar-expand-lg {
-	background-color: #081426;
+.navbar {
+	position: sticky;
 
 }
 .nav-link {
 	color: #42AE9B
 }
 .navbar-brand {
-	color: #42AE9B
+	color: #42AE9B !important	
+
 
 }
 
@@ -21,10 +22,14 @@ CSS Reset*/
 	margin-right: 15px;
 }
 .navbar-toggler {
-	border-color: #42AE9B;
+	border-color: #082F3A;
 	margin-top: 1rem;
+	background-color: #082F3A;
 }
+.navbarNav {
+	color: #081426;
 
+}
 .btn {
 
 	padding: 0.75rem 1rem;
@@ -44,26 +49,28 @@ body {
 
 #bg-image {
 	margin-top: 10px;
-    min-height: 70vh;
-	background-image: url(./images/home.jpg);
+    min-height: 50vh;
+	background-image: url(./images/home.png);
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
+	min-height: 100%;
 }
 
 .front-bg {
 	background-color: rgba(0, 0, 0, .10);
 	margin-top: 10px;
-    min-height: 70vh;
+    min-height: 50vh;
 }
 
 html {
-  scroll-behavior: smooth;
+	  scroll-behavior: smooth;
 }
 
 h4 {
 	text-align: left;
 	margin-left: 2rem;
 	color: #42AE9B;
+	margin-top: 3rem;
 }
 
 .big-heading {
@@ -71,13 +78,12 @@ h4 {
 	margin-left: 2rem;
 	color: #B0CDF1;
 	font-family: 'Roboto Mono', monospace;
-	display: block;
 }
 
 .sub-heading {
-	font-size: clamp(40px, 50vw, 30px);
+	font-size: clamp(30px, 40vw, 30px);
 	margin-left: 2rem;
-	color: #B0CDF1;
+	color: #A9A297;
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -86,8 +92,7 @@ h2 {
 	margin-bottom: 1REM;
 }
 
-h3 {/*
-	margin-left: 2rem;*/
+h3 {
 	margin-bottom: 1REM;
 	color: #B0CDF1;
 	text-align: center;
@@ -148,9 +153,15 @@ div.modal-header {
 #about {
 	background-color: #082F3A;
 
+
 }
 
 #contact {
     background-color: #082F3A;
+}
 
+footer {
+	text-align: center;
+    padding: 2rem;
+    color: B0CDF1; !important	
 }
