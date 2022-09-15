@@ -1,0 +1,123 @@
+CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar navbar-expand-lg {
+	background-color: #081426;
+
+}
+.nav-link {
+	color: #42AE9B
+}
+.navbar-brand {
+	color: #42AE9B
+
+}
+
+.nav-item {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.navbar-toggler {
+	border-color: #42AE9B;
+	margin-top: 1rem;
+}
+
+.btn {
+
+	padding: 0.75rem 1rem;
+	cursor: pointer;
+	transition: var(--transition);
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #42AE9B
+
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #081426;
+	 overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h4 {
+	text-align: left;
+	margin-left: 2rem;
+	color: #42AE9B;
+}
+.big-heading {
+	font-size: clamp(40px, 8vw, 70px);
+	margin-left: 2rem;
+	color: #B0CDF1;
+}
+
+.sub-heading {
+	font-size: clamp(40px, 50vw, 30px);
+	margin-left: 2rem;
+	color: #B0CDF1;
+}
+
+h2 {
+	color: #B0CDF1;
+	margin-bottom: 1REM;
+}
+
+h3 {/*
+	margin-left: 2rem;*/
+	margin-bottom: 1REM;
+	color: #B0CDF1;
+	text-align: center;
+}
+
+h5 {
+	color: #B0CDF1;
+	text-align: center;
+}
+
+#family {
+	opacity: 70%;
+
+}
+h6 {
+	text-align: center;
+	margin-bottom: 2REM;
+}
+
+.bio {
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	margin-left: 2rem;
+	text-align: left;
+	color: #A9A297;
+}
+
+.card {
+	border: none;
+
+}
+.card-body {
+	background-color: #0E1B33;
+}
+
+.card-text {
+	text-align: justify;
+	color: #A9A297;
+	margin-top: 2rem;
+}
+
+div .card {
+    background-color: #0E1B33;
+}
+.form-group {
+	color: #A9A297;
+}
+div.modal-header {
+	color: #B0CDF1;
+
+}
