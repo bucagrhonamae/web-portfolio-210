@@ -36,7 +36,7 @@ CSS Reset*/
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Fira Code', monospace;
 	background-color: #081426;
 	overflow-x: hidden;
 }
