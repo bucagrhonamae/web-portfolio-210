@@ -93,6 +93,7 @@ h2 {
 }
 
 h3 {
+	margin-top: 5rem;
 	margin-bottom: 1REM;
 	color: #B0CDF1;
 	text-align: center;
@@ -112,14 +113,31 @@ h6 {
 	margin-bottom: 2REM;
 }
 
-.bio {
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
+.about-title {
+	text-align: center;!important
+	color: #B0CDF1;!important
+	margin-top: 5rem;!important
+}
+
+#about {
+	background-color: #082F3A;
+
+}
+
+.bio-1 {
+	color: #A9A297;
 	margin-left: 2rem;
-	text-align: left;
+}
+
+#bio {
+	text-align: center;
 	color: #A9A297;
 }
 
+#tools {
+	text-align: center;
+
+}
 .card {
 	border: none;
 }
@@ -150,10 +168,9 @@ div.modal-header {
 	text-align: left;
 }
 
-#about {
-	background-color: #082F3A;
-	opacity: 90%;
-
+.about-bio {
+	text-align: center;
+	color: #A9A297;
 }
 
 #contact {
@@ -164,4 +181,22 @@ footer {
 	text-align: center;
     padding: 2rem;
     color: B0CDF1; !important	
+}
+.section-about {
+	margin: 0 auto;
+	z-index: 1;
+	position: relative;
+}
+.section-about-img {
+	max-width: 380px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.section-about-img:after {
+	content: "";
+	position: absolute;
+	height: 150px;
+	width: 120px;
+	left: 30px;
 }
