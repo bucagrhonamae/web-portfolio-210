@@ -49,11 +49,11 @@ body {
 
 #bg-image {
 	margin-top: 10px;
-    min-height: 50vh;
+    min-height: 20vh;
 	background-image: url(./images/home.png);
-	background-size: cover;
+	background-size: inherit;
 	background-position: bottom;
-	min-height: 100%;
+	min-height: 50%;
 }
 
 .front-bg {
@@ -152,7 +152,7 @@ div.modal-header {
 
 #about {
 	background-color: #082F3A;
-
+	opacity: 90%;
 
 }
 
