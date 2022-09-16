@@ -14,7 +14,6 @@ CSS Reset*/
 .navbar-brand {
 	color: #42AE9B !important	
 
-
 }
 
 .nav-item {
@@ -123,7 +122,11 @@ h6 {
 	background-color: #082F3A;
 
 }
+.about-img {
+	width: 400px;
+	padding: 1rem;
 
+}
 .bio-1 {
 	color: #A9A297;
 	margin-left: 2rem;
